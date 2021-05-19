@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<schema xmlns="http://www.w3.org/2001/XMLSchema"
+        targetNamespace="http://mafan/xsd"
+        elementFormDefault="qualified">
+
+    <element name="pets">
+        <complexType>
+            <sequence>
+                <element name="pet">
+                <complexType>
+                    <sequence>
+                        <element name="name" type="string"></element>
+                        <element name="skills">
+                            <complexType>
+                                <sequence>
+                                    <element name="skill" type="string"></element>
+                                    <element name="skill" type="string"></element>
+                                    <element name="skill" type="string"></element>
+                                    <element name="skill" type="string"></element>
+                                </sequence>
+                            </complexType>
+                        </element>
+                    </sequence>
+                    <attribute name="id" type="integer" use="required"></attribute>
+                </complexType>
+            </element>
+            </sequence>
+        </complexType>
+    </element>
+
+</schema>

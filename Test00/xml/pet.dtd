@@ -1,0 +1,5 @@
+<!ELEMENT pets (pet+)>
+<!ELEMENT pet (name,skills)>
+<!ELEMENT name (#PCDATA)>
+<!ELEMENT skills (skill+)>
+<!ELEMENT skill (#PCDATA)>

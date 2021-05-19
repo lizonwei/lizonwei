@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!--<!DOCTYPE pets SYSTEM 'pet.dtd'>-->
+<pets>
+<!--        xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+        xmlns="http://mafan/xsd"
+        xsi:schemaLocation="http://mafan/xsd"-->
+
+    <pet id="80">
+        <name>皮卡丘</name>
+        <skills>
+            <skill>十万伏特(电) 威力：95 命中：100</skill>
+            <skill>铁尾(钢) 威力：70 命中：90</skill>
+            <skill>电光一闪(一般) 威力：40 命中：--</skill>
+            <skill>高速移动(超能) 威力：-- 命中：100</skill>
+        </skills>
+    </pet>
+    <pet id="36">
+        <name>喷火龙</name>
+        <skills>
+            <skill>喷射火焰(火) 威力：95 命中：100</skill>
+            <skill>地球上投(格斗) 威力：-- 命中：--</skill>
+            <skill>钢翼(钢) 威力：70 命中：90</skill>
+            <skill>大字爆(火) 威力：120 命中：90</skill>
+        </skills>
+    </pet>
+</pets>

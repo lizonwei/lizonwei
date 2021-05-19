@@ -1,0 +1,12 @@
+<component name="libraryTable">
+  <library name="lib1">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/Test03/lib/junit-4.9.jar!/" />
+      <root url="jar://$PROJECT_DIR$/Test03/lib/log4j-1.2.17.jar!/" />
+      <root url="jar://$PROJECT_DIR$/Test03/lib/slf4j-log4j12-1.7.26.jar!/" />
+      <root url="jar://$PROJECT_DIR$/Test03/lib/slf4j-api-1.7.30.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>
