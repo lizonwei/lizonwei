@@ -40,6 +40,11 @@ public class Main {
                 list.add(element1.getText());
             }
             Pet pet = new Pet(Integer.parseInt(id), name, list);
+            System.out.println("test");
+            System.out.println("test");
+            System.out.println("test");
+            System.out.println("test");
+            System.out.println("test");
             pets.add(pet);
         }
 
